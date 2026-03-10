@@ -25,27 +25,22 @@ The system also calculates fines for late returns.
 
 ##  Project Structure
 
-library_management/
-│
-├── admin/
-│ ├── admin_auth.py
-│ └── admin_operations.py
-│
-├── user/
-│ ├── user_auth.py
-│ └── user_operations.py
-│
-├── config/
-│ └── db_config.py
-│
-├── database/
-│ └── create_tables.py
-│
-├── main.py
-├── .env
-├── .gitignore
-├── requirements.txt
-└── README.md
+- **library_management/**
+  - **admin/**
+    - admin_auth.py
+    - admin_operations.py
+  - **user/**
+    - user_auth.py
+    - user_operations.py
+  - **config/**
+    - db_config.py
+  - **database/**
+    - create_tables.py
+  - main.py
+  - .env
+  - .gitignore
+  - requirements.txt
+  - README.md
 
 ---
 
